@@ -1,0 +1,8 @@
+---
+instance_type: t2.medium
+security_group: giropops
+image: ami-05c1fa8df71875112
+keypair: descomplicando-ansible
+region: us-east-2
+count: 3
+profile: default
