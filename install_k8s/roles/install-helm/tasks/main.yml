@@ -1,0 +1,4 @@
+---
+# tasks file for install-helm
+- include: install-heml.yml
+- include: install-monit-tools.yml
