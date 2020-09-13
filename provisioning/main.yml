@@ -1,3 +1,4 @@
+---
 - hosts: local
-  roles: 
-  - create
+  roles:
+  - create-instances

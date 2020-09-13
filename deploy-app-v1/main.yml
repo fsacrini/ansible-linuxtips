@@ -2,4 +2,4 @@
   become: yes
   user: ubuntu
   roles:
-  - common
+  - { role: deploy-app, tags: ["deploy_app_role"] }
